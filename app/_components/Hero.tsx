@@ -43,7 +43,7 @@ export const Hero = () => {
         <div className="flex-[2] max-md:m-auto ml-auto">
             <img 
                 src="https://media.licdn.com/dms/image/D4E03AQEqgIaGGcSvrA/profile-displayphoto-shrink_800_800/0/1715000371222?e=1720656000&v=beta&t=P8k3ut-37ldVKYq-vunjxLge7OivPM9u3_lVwcwcqnU" 
-                className="w-full h-auto max-w-xs rounded-full max-md:w-56" 
+                className="w-full h-auto max-w-xs rounded-full max-md:w-56 " 
                 alt="marion's profil picture" 
             />
         </div>
