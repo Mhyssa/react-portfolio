@@ -5,7 +5,6 @@ import { Section } from "./Section";
 import { GithubIcon } from "./icons/GithubIcon";
 import { LinkedInIcon } from "./icons/LinkedInIcon";
 
-
 import Link from 'next/link';
 
 
