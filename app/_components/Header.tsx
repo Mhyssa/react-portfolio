@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 export const Header = () => {
     return (
-     <header className="sticky top-0 py-4">
+     <header className="sticky top-0 py-4 bg-background">
        <Section className="flex items-baseline">
            <h1 className="text-2xl font-bold text-primary ">marionjoly.net</h1>
            <div className="flex-1" />
