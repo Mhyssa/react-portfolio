@@ -18,8 +18,8 @@ export const Skills = () => {
               <ReactIcon size={42} className="animate-spin" style={{animationDuration: "20s"}}/>
               <h3 className="text-2xl font-semibold tracking-tighter">React</h3>
               <p className="text-sm text-muted-foreground">
-                This portfolio is built with<Code>React.js</Code>, and I&apos;m currently exploring <Code>Next.js</Code>. 
-                I&apos;m already enamored with its philosophy.
+                This portfolio is built with<Code>React.js</Code>, and I m currently exploring <Code>Next.js</Code>. 
+                I m already enamored with its philosophy.
               </p>
             </div> 
           
@@ -29,7 +29,7 @@ export const Skills = () => {
               <h3 className="text-2xl font-semibold tracking-tighter">Tailwind</h3>
               <p className="text-sm text-muted-foreground">
                 After 2 years of experience with<Code>Bootstrap</Code>, 
-                I&apos;m refining my UI skills with<Code>Tailwind CSS</Code>.
+                I m refining my UI skills with<Code>Tailwind CSS</Code>.
               </p>
               </div>
           
@@ -40,7 +40,7 @@ export const Skills = () => {
               <h3 className="text-2xl font-semibold tracking-tighter">Symfony</h3>
               <p className="text-sm text-muted-foreground">
                 I started with<Code>PHP</Code>and<Code>CodeIgniter</Code>, 
-                but I&apos;ve embraced<Code>Symfony</Code>for its full power and capabilities.
+                but I ve embraced<Code>Symfony</Code>for its full power and capabilities.
             </p>
               </div>
           
