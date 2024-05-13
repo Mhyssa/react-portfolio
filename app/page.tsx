@@ -4,7 +4,7 @@ import { Skills} from "./_components/Skills";
 import { Spacing} from "./_components/Spacing";
 import { Status} from "./_components/Status";
 import { Footer} from "./_components/Footer";
-import { Contact} from "./_components/Contact";
+import { Contact } from "./_components/Contact";
 
 
 
@@ -30,7 +30,7 @@ export default function Home() {
         <Spacing size="md"/>
 
         <Contact/>
-
+        
         <Spacing size="md"/>
 
         <Footer/>
