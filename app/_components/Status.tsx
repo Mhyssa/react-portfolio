@@ -1,6 +1,6 @@
 import { Section } from "./Section";
 import { Card } from "@/components/ui/card";
-import { Home } from "lucide-react";
+
 
 
 import { SIDE_PROJECT, SideProject } from "./SIDE_PROJECT";
