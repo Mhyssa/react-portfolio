@@ -1,5 +1,7 @@
-import { LucideIcon } from "lucide-react";
+import { Flower, LucideIcon, WorkflowIcon, Youtube } from "lucide-react";
+
 import Link from "next/link";
+
 import { Rainbow } from 'lucide-react';
 import { CalendarHeart } from 'lucide-react';
 import { CookingPot } from 'lucide-react';
@@ -9,38 +11,38 @@ export const SIDE_PROJECT: SideProjectProps[] = [
     {
         Logo: CalendarHeart,
         title: "Les Bavardes",
-        description: "lorem lezfklez f kjsdj  iozihif c n",
-        url: "/",
+        description: "Volunteer project developed using CodeIgniter",
+        url: "https://lesbavardes.org/",
     },
     {
         Logo: Rainbow,
         title: "Fiertes Amiens",
-        description: "lorem lezfklez f kjsdj  iozihif c ze ez",
-        url: "/",
+        description: "Designed for the FlashTrueColor association",
+        url: "https://fiertesamiens.fr/",
     },
     {
         Logo: Code,
         title: "Ada Recap",
-        description: "lorem lezfklez f kjsdj  iozihif c nvz",
-        url: "/",
+        description: "Engaged in pedagogical project development for AFPA",
+        url: "https://github.com/Mhyssa/AdaRecap",
     },
     {
         Logo: CookingPot,
         title: "Symrecipe",
-        description: "lorem lezfklez f kjsdj  iozihif c nvur ",
-        url: "/",
+        description: "Completed a comprehensive Symfony project",
+        url: "https://github.com/Mhyssa/SymRecipe",
     },
     {
-        Logo: CookingPot,
-        title: "Symrecipe",
-        description: "lorem lezfklez f kjsdj  iozihif c nvur ",
-        url: "/",
+        Logo: Flower,
+        title: "Femmes Citoyennes",
+        description: "Implemented a project for the FC collective",
+        url: "https://femmes-citoyennes.fr/",
     },
     {
-        Logo: CookingPot,
-        title: "Symrecipe",
-        description: "lorem lezfklez f kjsdj  iozihif c nvur ",
-        url: "/",
+        Logo: Youtube,
+        title: "VueTube",
+        description: "Developed a YouTube clone utilizing API and Vue.js",
+        url:"https://thriving-manatee-41a707.netlify.app/",
     },
 ];
 type SideProjectProps = {
@@ -51,7 +53,7 @@ type SideProjectProps = {
 };
 export const SideProject = (props: SideProjectProps) => {
     return (
-        <Link href={props.url} className="inline-flex items-center gap-3 hover:bg-accent/50 transition-colors rounded-lg">
+        <Link href={props.url} target="blank" className="inline-flex items-center gap-3 hover:bg-accent/20 transition-colors rounded-lg">
             <span className="bg-accent text-accent-foreground p-2 m-2 rounded-sm">
                 <props.Logo />
             </span>
