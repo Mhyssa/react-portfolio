@@ -1,7 +1,12 @@
-import {Header} from "./_components/Header";
-import {Hero} from "./_components/Hero";
-import {Spacing} from "./_components/Spacing";
-import {Status} from "./_components/Status";
+import { Header} from "./_components/Header";
+import { Hero} from "./_components/Hero";
+import { Skills} from "./_components/Skills";
+import { Spacing} from "./_components/Spacing";
+import { Status} from "./_components/Status";
+import { Footer} from "./_components/Footer";
+import { Contact} from "./_components/Contact";
+
+
 
 
 export default function Home() {
@@ -20,7 +25,15 @@ export default function Home() {
         
         <Spacing size="md"/>
 
-        {/* Footer */}
+        <Skills/>
+
+        <Spacing size="md"/>
+
+        <Contact/>
+
+        <Spacing size="md"/>
+
+        <Footer/>
 
  
 

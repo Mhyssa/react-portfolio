@@ -4,15 +4,11 @@ import { cn } from "@/lib/utils";
 import { LinkedInIcon } from "./icons/LinkedInIcon";
 import { GithubIcon } from "./icons/GithubIcon";
 
+import { Code } from "./Code";
 import Link from 'next/link';
 
 
-const Code = ({className,...props}: ComponentPropsWithoutRef<"span">) => {
-    return (
-        <span className={cn("bg-accent/60 font-mono border hover:bg-slate-800 rounded-md px-1 m-1",className)}
-    {...props} />
-    );
-};
+
 
 
 export const Hero = () => {
