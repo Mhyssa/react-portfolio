@@ -17,13 +17,13 @@ export const Header = () => {
            <ul className="flex items-center gap-2">
                 <Link 
                     href="https://github.com/Mhyssa" target="blank"
-                    className={cn(buttonVariants({ variant: "link"}), "size-6 p-0")}
+                    className={cn(buttonVariants({ variant: "link"}), "size-6 p-0 hover:bg-accent/30")}
                 >
                     <GithubIcon size={16} className="text-foreground"/>
                 </Link>
                 <Link 
                     href="https://www.linkedin.com/in/marionhelenejoly/" target="blank"
-                    className={cn(buttonVariants({ variant: "link"}), "size-6 p-0")}
+                    className={cn(buttonVariants({ variant: "link"}), "size-6 p-0 hover:bg-accent/30")}
                 >
                     <LinkedInIcon size={16} className="text-foreground"/>
                 </Link>

@@ -18,8 +18,8 @@ export const Skills = () => {
               <ReactIcon size={42} className="animate-spin" style={{animationDuration: "20s"}}/>
               <h3 className="text-2xl font-semibold tracking-tighter">React</h3>
               <p className="text-sm text-muted-foreground">
-                This portfolio is built with<Code>React.js</Code>, and I m currently exploring <Code>Next.js</Code>. 
-                I m already enamored with its philosophy.
+                This portfolio is built with<Code>React.js</Code>, and I&apos;m currently exploring <Code>Next.js</Code> <br />
+                I&apos;m already enamored with its philosophy.
               </p>
             </div> 
           
@@ -28,8 +28,7 @@ export const Skills = () => {
               <TailwindIcon size={42}/>
               <h3 className="text-2xl font-semibold tracking-tighter">Tailwind</h3>
               <p className="text-sm text-muted-foreground">
-                After 2 years of experience with<Code>Bootstrap</Code>, 
-                I m refining my UI skills with<Code>Tailwind CSS</Code>.
+                After 2 years of experience with<Code>Bootstrap</Code>, I&apos;m refining my UI skills with<Code>Tailwind CSS</Code>.
               </p>
               </div>
           

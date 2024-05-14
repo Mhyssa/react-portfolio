@@ -6,6 +6,8 @@ import { GithubIcon } from "./icons/GithubIcon";
 import { Code } from "./Code";
 import Link from "next/link";
 
+import Image from 'next/image'
+
 export const Hero = () => {
     return (
        
@@ -29,16 +31,18 @@ export const Hero = () => {
             Based in            
             <Code className="inline-flex items-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Normandie.svg/800px-Flag_of_Normandie.svg.png" 
-                style={{width: 16, height:"auto"}} alt="flag of Normandie" className="inline mr-2"/> Normandy
+                style={{width: 16, height:"auto"}} alt="flag of Normandie" className="inline mr-2"/>Normandy
             </Code>, France.
             </p>
         </div>
         <div className="flex-[2] max-md:m-auto ml-auto">
-            <img 
-                src="https://media.licdn.com/dms/image/D4E03AQEqgIaGGcSvrA/profile-displayphoto-shrink_800_800/0/1715000371222?e=1720656000&v=beta&t=P8k3ut-37ldVKYq-vunjxLge7OivPM9u3_lVwcwcqnU" 
-                className="w-full h-auto max-w-xs rounded-full max-md:w-56 " 
-                alt="marion's profil picture" 
-            />
+                <Image
+                    src="/avatar_classic.webp" 
+                    width={500}
+                    height={500}
+                    className="w-full h-auto max-w-xs p-3 border-accent border-8 rounded-full max-md:w-56 hover:skew-y-3"
+                    alt="marion's profil picture"
+                />
         </div>
         
         </Section>
