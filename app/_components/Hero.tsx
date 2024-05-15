@@ -36,13 +36,7 @@ export const Hero = () => {
             </p>
         </div>
         <div className="flex-[2] max-md:m-auto ml-auto">
-                <Image
-                    src="/avatar_classic.webp" 
-                    width={500}
-                    height={500}
-                    className="w-full h-auto max-w-xs p-3 border-accent border-8 rounded-full max-md:w-56 hover:skew-y-3"
-                    alt="marion's profil picture"
-                />
+                <img src="https://avatars.githubusercontent.com/u/44159293?v=4" alt="marion's profil picture" className="w-full h-auto max-w-xs p-3 border-accent border-8 rounded-full max-md:w-56 hover:skew-y-3"/>
         </div>
         
         </Section>
