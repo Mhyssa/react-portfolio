@@ -7,6 +7,8 @@ import { GeistMono } from "geist/font/mono";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 
+import { ThemeProvider } from "@/src/theme/ThemeProvider";
+
 const AnekTelugu = Anek_Telugu({ subsets: ["latin"], variable: "--font-caption" });
 
 export const metadata: Metadata = {
@@ -21,7 +23,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
-      <body className={cn(GeistSans.variable, GeistMono.variable, AnekTelugu.variable , "font-sans h-full bg-background text-foreground")}>{children}</body>
+      <body className={cn(GeistSans.variable, GeistMono.variable, AnekTelugu.variable , "font-sans h-full bg-background text-foreground")}>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

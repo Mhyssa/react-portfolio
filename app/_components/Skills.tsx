@@ -15,7 +15,7 @@ export const Skills = () => {
         </h2>
         <div className="flex max-md:flex-col gap-4">
               <div className="flex flex-col gap-2 flex-1">
-              <ReactIcon size={42} className="animate-spin" style={{animationDuration: "20s"}}/>
+              <ReactIcon size={56} className="animate-spin" style={{animationDuration: "15s"}}/>
               <h3 className="text-2xl font-semibold tracking-tighter">React</h3>
               <p className="text-sm text-muted-foreground">
                 This portfolio is built with<Code>React.js</Code>, and I&apos;m currently exploring <Code>Next.js</Code> <br />
@@ -25,7 +25,7 @@ export const Skills = () => {
           
 
               <div className="flex flex-col gap-2 flex-1">
-              <TailwindIcon size={42}/>
+              <TailwindIcon size={56}/>
               <h3 className="text-2xl font-semibold tracking-tighter">Tailwind</h3>
               <p className="text-sm text-muted-foreground">
                 After 2 years of experience with<Code>Bootstrap</Code>, I&apos;m refining my UI skills with<Code>Tailwind CSS</Code>.
@@ -35,7 +35,7 @@ export const Skills = () => {
 
 
               <div className="flex flex-col gap-2 flex-1">
-              <SymfonyIcon size={42}/>
+              <SymfonyIcon size={56}/>
               <h3 className="text-2xl font-semibold tracking-tighter">Symfony</h3>
               <p className="text-sm text-muted-foreground">
                 I started with<Code>PHP</Code>and<Code>CodeIgniter</Code>, 

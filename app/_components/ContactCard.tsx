@@ -11,7 +11,7 @@ export const ContactCard = (props: {
 }) => {
     return (
         <Link href={props.url} target="blank">
-        <Card className="p-2 bg-accent/20 flex items-center gap-3 hover:bg-accent hover:text-background transition-colors group">
+        <Card className="p-2 bg-slate-100 dark:bg-background  flex items-center gap-3 hover:bg-secondary/20 dark:hover:bg-neutral-950 transition-colors group text-foreground">
             <div className="relative">
                 <img src={props.image} alt={props.name} className="w-8 h-8 rounded-full object-contain" />
                 <img src={props.mediumImage} alt={props.name} className="w-4 h-4 absolute rounded-full object-contain -bottom-1 -right-1" />

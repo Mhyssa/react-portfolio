@@ -35,14 +35,14 @@ type WorkProps = {
 };
 export const Work = (props: WorkProps) => {
     return (
-        <Link href={props.url} target="blank" className="inline-flex items-center gap-3 p-2 hover:bg-accent/20 transition-colors rounded-lg">
+        <Link href={props.url} target="blank" className="inline-flex items-center gap-3 p-2 hover:bg-slate-100/80 dark:hover:bg-accent/20 transition-colors rounded-lg">
 
             <img src={props.image} alt={props.title} className="w-8 h-8 object-contain rounded-md" />
 
             <div className="mr-auto">
                 <div className="flex items-center gap-3">
                     <p className="text-sm font-semibold">{props.title}</p>
-                    {props.freelance && <Badge variant="outline" className="bg-secondary/30">Mission</Badge>}
+                    {props.freelance && <Badge variant="outline" className="dark:bg-accent/20 bg-secondary/50 ">Mission</Badge>}
                 </div>
                 <p className="text-sm text-muted-foreground">{props.role}</p>
             </div>
