@@ -12,7 +12,7 @@ export function ThemeToggle() {
 
   return (
 
-        <Button variant="toggle" size="icon" className="ml-12"
+        <Button variant="toggle" size="icon" className="ml-12 p-0"
         onClick={()=> {
             setTheme(theme === 'light' ? 'dark' : 'light');
         }}>
