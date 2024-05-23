@@ -44,7 +44,7 @@ export const Hero = () => {
             </p>
         </div>
         <div className="flex-[2] max-md:m-auto ml-auto">
-                <img src="https://avatars.githubusercontent.com/u/44159293?v=4" alt="marion's profil picture" className="w-full h-auto max-w-xs p-3 border-secondary border-8 rounded-full dark:border-accent max-md:w-56 hover:scale-105"/>
+                <img src="https://github.com/account"/>
         </div>
         
         </Section>
