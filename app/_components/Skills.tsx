@@ -27,7 +27,7 @@ export const Skills = () => {
               <div className="flex flex-col gap-2 flex-1">
               <TailwindIcon size={56}/>
               <h3 className="text-2xl font-semibold tracking-tighter">Tailwind</h3>
-              <p className="text-sm text-muted-foreground">
+              <p className="text-sm text-muted-foreground text-balance">
                 After 2 years of experience with<Code>Bootstrap</Code>, I&apos;m refining my UI skills with<Code>Tailwind CSS</Code>.
               </p>
               </div>
