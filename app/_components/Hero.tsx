@@ -44,7 +44,7 @@ export const Hero = () => {
             </p>
         </div>
         <div className="flex-[2] max-md:m-auto ml-auto">
-                <img src="https://github.com/account"/>
+                <img src="https://avatars.githubusercontent.com/u/44159293?v=4"/>
         </div>
         
         </Section>
